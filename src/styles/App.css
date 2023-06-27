@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section {
+  padding: 1.5rem 1.5rem;
+}
+
+@media (min-width: 800px) {
+  .card {
+    width: 50%;
+    margin: 0px auto;
+  }
+}
+
+.content {
+  font-size: 11px;
+}
+
+.Smartwatch {
+  height: 197px;
+  width: 162px;
+  border: 1.75px black;
+  border-style: solid;
+  border-radius: 32px;
+}
+
+.text-center {
+  margin-top: 2px;
+}
+
+.box-input {
+  padding-top: 5px;
+  font-size: small;
+  width: 149px;
+  height: 52px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.keyboard {
+  font-size: 11px;
+}
+
+.bottomButton {
+  height: 65px;
+  border-top: 1px white;
+  border-style: solid;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #282c34;
+  list-style: inline;
+  font-weight: bold;
+}
+
+.middleButton {
+  height: 35px;
+  border-top: 1px white;
+  border-style: solid;
+  background-color: #282c34;
+  list-style: inline;
+  font-weight: bold;
+}
+
+.middleHeight {
+  height: 35px;
+  color: white;
+}
+
+.topButton {
+  height: 35px;
+  border-top: 1px white;
+  border-style: solid;
+  background-color: #282c34;
+  list-style: inline;
+  font-weight: bold;
+}
+
+.topButton div {
+  color: white;
+}
+
+.autotext {
+  cursor: pointer;
+  margin: 2px;
+}
+
+.bottomButton div {
+  color: white;
+}
+
+.enter {
+  border-left: 1px gray;
+  border-right: 1px gray;
+  border-style: solid;
+}
+
+.space {
+  border-right: 1px gray;
+  border-style: solid;
+  font-size: 10px;
+}
+
+.key {
+  height: 56px;
+}
+
+.timer {
+  justify-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
